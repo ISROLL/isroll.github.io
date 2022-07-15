@@ -1,0 +1,84 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Logo {
+display: inline-block;
+vertical-align: top;
+}
+
+nav {
+    width: 60%;
+    flex-wrap: nowrap;
+    display: flex;
+    padding: 1%;
+    text-align: right;
+}
+
+.nav-item{
+    font-size: 27px;
+    padding: 0% 2% ;
+}
+
+.hero{
+display: flex;
+justify-content: space-around;
+
+}
+
+.hero-content{
+    margin-top: 2%;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 2%;
+    background-color: gray;
+}
+
+.social-media{
+    display: flex;
+    margin: 0% 2%;
+}
+
+.flexcontainer{
+display: flex;
+width: 33%;
+margin: auto;
+padding: 10px;
+flex-direction: ;
+}
+
+.workgrid{
+display: grid;
+grid-template-areas: myarea myarea myarea myarea;
+}
+
+
+
+
+
+
+@media only screen and (max-width:100%){
+    flex-direction: .flexcontainer;
+    #categorygrid{
+        margin: 0px, 5%;
+        display: grid;
+        grid-template-rows: 300px 300px 300px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: none;
+    }
+    #categorygrid{
+        grid-template-rows: 300px 300px 300px 300px 300px;
+        grid-template-columns: 1fr;
+        grid-template-areas: none;
+    }
+}
